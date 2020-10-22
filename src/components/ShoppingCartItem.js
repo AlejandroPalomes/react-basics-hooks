@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 
-class ShoppingCartItem extends Component {
-  componentDidMount() {
-    console.log(this.props);
-  }
+import Button from "./Button";
 
+class ShoppingCartItem extends Component {
   render() {
-    const { img, title, price, handleChange, handleRemove } = this.props;
+    const {
+      img,
+      title,
+      price,
+      quantity,
+      handleChange,
+      handleRemove,
+    } = this.props;
 
     return (
       <div className="col shopping__cart__item">
@@ -34,6 +39,7 @@ class ShoppingCartItem extends Component {
                         <select
                           className="custom-select"
                           onChange={handleChange}
+                          value={quantity}
                         >
                           <option value="1">1</option>
                           <option value="2">2</option>
@@ -48,13 +54,7 @@ class ShoppingCartItem extends Component {
                         </select>
                       </div>
                       <div className="col col-6 col-lg-8">
-                        <button
-                          type="btn"
-                          className="btn btn-dark"
-                          onClick={handleRemove}
-                        >
-                          Remove
-                        </button>
+                        <Button onClick={handleRemove}>Remove</Button>
                       </div>
                     </div>
                   </div>
