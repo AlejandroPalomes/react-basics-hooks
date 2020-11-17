@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed alongside Albert Grandes, to introduce ourselves into the react world. It's a bascic shopping cart, refactorized to implement React. 
+
+To install the dependencies, please follow the insctructions.
 
 ## Available Scripts
 
