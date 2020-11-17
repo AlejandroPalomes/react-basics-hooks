@@ -1,14 +1,14 @@
 {
-  "name": "react-basics-classes-solution",
+  "name": "react-basics-hooks",
   "version": "1.0.0",
-  "description": "assembler-school-react-basics-classes-solution",
+  "description": "react-basics-hooks",
   "private": true,
-  "author": "Daniel Lucaci <dani@assemblerschool.com>",
+  "author": "Alejandro Palomes <alejandropalomes@hotmail.com>",
   "license": "MIT",
   "keywords": [
     "react",
     "basics",
-    "assemblerschool"
+    "hooks"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
