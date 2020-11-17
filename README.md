@@ -1,6 +1,6 @@
-This project was developed alongside Albert Grandes, to introduce ourselves into the react world. It's a bascic shopping cart, refactorized to implement React. 
+This project was developed alongside Albert Grandes, to introduce ourselves into the react world. It's a bascic shopping cart, refactorized to implement React.
 
-To install the dependencies, please follow the insctructions.
+To install initialize the app, please follow the insctructions.
 
 ## Available Scripts
 
